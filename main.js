@@ -5,7 +5,7 @@ const app = Vue.createApp({
             product: 'Socks',
             description: 'A fuzzy pair of socks.',
             image: './assets/images/vmSocks-green-onWhite.jpg',
-            inventory: 100,
+            inventory: 0,
             onSale: true,
             details: ['50% cotton', '30% wool', '20% polyester'],
             variants: [
